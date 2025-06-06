@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn {
+  @apply bg-gray-200 hover:bg-gray-300 px-2 py-1 rounded text-sm;
+}
+.btn.is-active {
+  background-color: #007bff;
+  color: white;
+}
+
+.ProseMirror ul {
+  list-style-type: disc;
+  padding-left: 1.2em;
+  margin: 0.5em 0;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal;
+  padding-left: 1.4em;
+  margin: 0.5em 0;
+}
+
+.ProseMirror li {
+  margin: 0.2em 0;
+}
+
+.ProseMirror a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
